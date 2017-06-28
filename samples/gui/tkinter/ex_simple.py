@@ -19,6 +19,8 @@ app.master.title('Sample application')
 app.mainloop()
 
 """
+useful notes, step by step
+
 line 1: Hashbang directive to the program launcher, allowing the selection of an appropriate interpreter executable, when self-executing.[8]
 line 2: This line imports the Tkinter module into your program's namespace, but renames it as tk.
 line 4: Your application class must inherit from Tkinter's Frame class.

@@ -8,7 +8,7 @@ import notify2
 
 pollingtime = 2 # polling time (sec)
 debug = False # print something
-vpnip = ["91.121.103.225", "195.154.128.163"] # valid vpn ip
+vpnip = ["91.121.103.225", "195.154.128.163"] # valid vpn ip (1+)
 
 def underVpn():
 
