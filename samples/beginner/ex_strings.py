@@ -36,3 +36,25 @@ if "blah" in "blah? sure":
     print("found blah")
 else: print("not found blah")
 
+# Multiline, note that indent add extra white at text
+RXml="""<?xml version="1.0" encoding="UTF-8"?>
+<note>
+<to>Tove</to>
+<from>Jani</from>
+<heading>Reminder</heading>
+<body>Don't forget me this weekend!</body>
+</note>"""
+print(RXml)
+
+# another way
+s = ("this is a very"
+      "long string too"
+      "for sure ... {pay attention to missign newline}"
+     )
+print(s)
+
+# and another one
+template = "This is the first line.\n" \
+           "This is the second line.\n" \
+           "This is the third line."
+print(template)
