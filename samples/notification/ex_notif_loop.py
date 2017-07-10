@@ -6,7 +6,8 @@ import time
 import os
 import notify2
 
-pollingtime = 2 # polling time (sec)
+ptimecon = 1 # polling time (sec) when connected
+ptimedis = 10 # polling time (sec) when disconnected
 debug = False # print something
 vpnip = ["91.121.103.225", "195.154.128.163"] # valid vpn ip (1+)
 
@@ -40,7 +41,7 @@ while True:
             n.icon = "security-high"
             n.update("ok", "connection is back")
             n.show()
-            time.sleep(pollingtime)
+            time.sleep(ptimecon)
 
         broken = False
         n.close()
@@ -51,4 +52,4 @@ while True:
     n.update("ehi", "check connection before continue")
     n.show()
 
-    time.sleep(pollingtime)
+    time.sleep(ptimedis)
