@@ -60,3 +60,6 @@ print("-- new style --")
 print("1: Total score for {} is {}".format(name, score))
 print("2: Total score for {0} is {1}".format(name, score))
 print("3: Total score for {1} is {0}".format(score, name))
+
+# print multiple time a char
+print('-' * 22) 
